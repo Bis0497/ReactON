@@ -9,22 +9,17 @@ table, td {
     background-color: lightgreen;
     border: 1px solid black;
     border-collapse: collapse;
-    color: green;
+   
 }
 
 table {
     width: 500px;
 }
-#login {
+#login #form-table {
     width: 500px;
     margin: 0 auto;
 }
 
-#noti-text {
-    color: red;
-    display: none;
-    text-align: center;
-}
 
 
 #name {
@@ -37,4 +32,11 @@ table {
 
 #phoneNum {
     width: 50%;
+}
+
+#message {
+    text-align: center;
+    color: red;
+    display: none;
+    
 }

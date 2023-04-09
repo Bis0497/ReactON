@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bai 11</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -21,9 +20,11 @@
           <td><input type="text" id="password" /></td>
         </tr>
         <tr>
-          <td colspan="2" class="login-btn">
-            <button id="login-btn">Đăng nhập</button>
+          <td colspan="2"><input type="submit" value="Login" onclick="login()"></td>
           </td>
+        </tr>
+        <tr>
+          <td colspan="2" id="message"></td>
         </tr>
       </table>
     </form>

@@ -8,10 +8,11 @@ table, tr, td {
     border-collapse: collapse;
 }
 
+td:last-child {
+    text-align: center;
+}
+
 #login table {
     width: 300px;
     margin: auto;
-}
-.login-btn {
-    text-align: center;
 }
