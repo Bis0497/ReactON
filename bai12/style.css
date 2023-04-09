@@ -1,0 +1,40 @@
+
+h1 {
+    font-size: 30px;
+    color: green;
+    text-align: center;
+}
+
+table, td {
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: green;
+}
+
+table {
+    width: 500px;
+}
+#login {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#noti-text {
+    color: red;
+    display: none;
+    text-align: center;
+}
+
+
+#name {
+    width: 90%;
+}
+
+#address {
+    width: 75%;
+}
+
+#phoneNum {
+    width: 50%;
+}

@@ -1,0 +1,17 @@
+h3{
+    color: orange;
+    text-align: center;
+}
+table, tr, td {
+    background-color: lightblue;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#login table {
+    width: 300px;
+    margin: auto;
+}
+.login-btn {
+    text-align: center;
+}

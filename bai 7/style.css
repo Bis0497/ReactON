@@ -1,0 +1,25 @@
+h1{
+    color: red;
+    text-align: center;
+}
+img{
+    width: 200px;
+    float: left;
+}
+.title{
+    color: white;
+    background-color: red;
+}
+ul.a {
+    list-style-type: square
+}
+ul.b {
+    list-style-type: disc;
+}
+.last-line{
+    padding-left: 250px;
+    font-weight: bold;
+}
+.blue{
+    color: blue;
+}

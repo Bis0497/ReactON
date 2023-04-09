@@ -1,0 +1,33 @@
+.header {
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: double;
+  }
+  .firstletter::first-letter,
+  .mess::first-letter {
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  strong {
+    text-decoration: underline;
+  }
+  .rightsite {
+    color: white;
+    text-align: right;
+    background-color: orange;
+    font-size: 20px;
+  }
+  .mess {
+    text-align: right;
+  }
+
+  .name {
+    color: red;
+    font-weight: bold;
+  }
+  .yellow {
+    background-color: yellow;
+    font-style: italic;
+  }

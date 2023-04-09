@@ -1,0 +1,14 @@
+h2{
+    text-align: center;
+    color: green;
+}
+.title{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.name{
+    color: red;
+}
+pre {
+    background-color:#CCCCCC;
+}

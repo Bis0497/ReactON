@@ -1,0 +1,28 @@
+h1 {
+    color: orange;
+    text-align: center;
+  }
+  img {
+    float: left;
+    width: 200px;
+  }
+  table,
+  td,
+  th {
+    border: 1px solid purple;
+    padding: 5px;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  th {
+    color: white;
+    background-color: #cc6600;
+  }
+  td:first-child {
+    width: 100px;
+    text-align: center;
+  }
+  .colorchange{
+    background-color: #FFEDCA;
+  }

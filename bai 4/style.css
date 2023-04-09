@@ -1,0 +1,18 @@
+h2 {
+    text-align: center;
+    color: #008888;
+  }
+  .content {
+    color: #339999;
+  }
+
+  .headline {
+    font-weight: bold;
+    color: white;
+    background-color: teal;
+  }
+
+  body {
+    background-image: url("/corona.jpg");
+    background-size: cover;
+  }

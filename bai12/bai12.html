@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bai 12</title>
+</head>
+<body>
+    <h1>Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+    <from id="login">
+    <table id="form-table">
+        <tr>
+            <td><label for="name">Họ và tên</label></td>
+            <td><input type="text" name="name" id="name"></td>
+        </tr>
+        <tr>
+            <td><label for="address">Địa chỉ</label></td>
+            <td><input type="text" name="address" id="address"></td>
+        </tr>
+        <tr>
+            <td><label for="phoneNum">Số Điện Thoại</label></td>
+            <td><input type="tel" name="phoneNum" id="phoneNum"></td>
+        </tr>
+        <tr>
+            <td><label for="sex">Giới Tính</label></td>
+            <td><input type="radio" id="male" name="sex">
+                <label for="male">Nam</label>
+                <input type="radio" id="female" name="sex" >
+                <label for="female">Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="job">Nghề nghiệp</label></td>
+            <td><input type="text" name="job" id="job"></td>
+        </tr>
+        <tr>
+            <td><label for="products" >Chọn sản phẩm tham gia</label></td>
+            <td><select name="products" id="products" multiple>
+                <option value="toothbrush">Kem đánh răng</option>
+                <option value="Washingpowder">Bột giặt</option>
+                <option value="shampoo">Dầu gội</option>
+                <option value="Showergel">Sữa tăm</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="guessNum">Số người dự đoán tham gia</label></td>
+            <td><input type="text" name="guessNum" id="guessNum"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center">
+                <button type="submit">Đăng nhập</button>
+            </td>
+        </tr>
+        <tr class="noti-text">
+            <td colspan="2">Bạn đã đăng ký thành công!!!</td>
+        </tr>
+    </table>
+    </from>
+
+    <script>
+        const form = document.querySelector('form');
+        const text = document.querySelector('.notitext');
+        form.onsubmit = a => {
+            text.style.display = 'content';
+        }
+
+    </script>
+</body>
+</html>

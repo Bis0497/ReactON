@@ -1,0 +1,38 @@
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+}
+
+img {
+  width: 50px;
+  height: 75px;
+  padding: 5px;
+}
+
+.title {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    text-align: right;
+}
+
+.heading {
+
+    background-color: #FFBBBB;
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+i {
+    font-weight: bold;
+    color: red;
+}
